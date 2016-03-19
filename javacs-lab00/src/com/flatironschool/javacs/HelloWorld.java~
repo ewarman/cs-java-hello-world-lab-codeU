@@ -1,8 +1,10 @@
 package com.flatironschool.javacs;
 
+import java.specification.version;
+
 public class HelloWorld {
     public static Double getVersion() {
-        return Double.parseDouble(System.getProperty("java.specification.version"));
+        return Double.parseDouble(System.getProperty(java.specification.version));
     }
 
     public static void main(String[] args) {
